@@ -4,20 +4,42 @@
 Uma definição de tipo de documento (inglês: document type definition, DTD) é um conjunto de declarações de marcação.
 -->
 
-<html>
+<html lang="pt-br"> 
 	<!-- Primeiro filho do HTML -->
 	<head>
 		<meta charset="UTF-8"/>
 		<meta name="viewport" content="width:device-widht,initial-scale=1.0"/>
-		<title>EXEMPLO</title>
+		<title>Página Básica</title>
 	</head>
 	<body>
 		 <div class="container">
 
 
-			<header>
+			<header class="cabeçalho">
 				<h1 style="text-align: center; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 				">Minha Página</h1>
+		
+			</header>
+		 
+			<section class="conteudo">
+				<div>
+					<h2>Sobre mim...</h2>
+					<p>Amante da tecnologia, esporte e sétima arte.</p>
+				</div>
+				<div>
+					<h2>Skills</h2>
+					<p>HTML, CSS, Python, Java, SQL.</p>
+				</div>
+				<div>
+					<h2>Portifólio</h2>
+					<p>- Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum animi perferendis tempore perspiciatis veritatis at vero suscipit praesentium ipsa assumenda.
+						<span>Algum projeto. <a href="#">Projeto-1</a></span>
+
+					</p>
+				</div>
+			</section>
+
+			<footer>
 				<nav>
 					<ul>
 						<li> <a href="https://www.fiap.com.br/" target="_blank"> FIAP </a></li>
@@ -25,8 +47,12 @@ Uma definição de tipo de documento (inglês: document type definition, DTD) é
 						<li> <a href="https://github.com/" target="_blank"> GITHUB </a></li>
 					</ul>
 				</nav>
-			</header>
-		 </div>
+				<p>
+					Todos os direitos reservados &copy; 2024 - Minha Página.
+				</p>
+			</footer>
+		
+		</div>
 		
 
 	</body>
