@@ -6,10 +6,16 @@
         Propriedade: Valor;   
     }
 */
-
+    /* Seletores de tipo */
     h1 {
         color: red;
         text-align: center;
+    }
+
+    #cabeçalho{
+        background-image: url("../img/img-01-banner-1280×640.png");
+        background-position: center;
+        background-size: cover;
     }
 
     /* Seletores de classe */
