@@ -7,13 +7,13 @@
     }
 */
     /* Seletores de tipo */
-    h1 {
+    /*h1 {
         color: red;
         text-align: center;
-    }
+    } */
 
-    #cabeçalho{
-        background-image: url("../img/img-01-banner-1280×640.png");
+    #cabecalho{
+        /* background-image: url("../img/img-01-banner-1280×640.png"); */
         background-position: center;
         background-size: cover;
     }
@@ -55,4 +55,46 @@
     #menu ul {
         list-style-type: none;
         text-align: center;
+    }
+
+
+    header {
+        background-color: rgb(37, 37, 167);
+    }
+
+    h1 {
+        font-family: 'Times New Roman', Times, serif;
+        text-align: center;
+        color: rgb(255, 255, 255);
+    }
+
+    h2 {
+        font-family: 'Times New Roman', Times, serif;
+    }
+    
+    p {
+        color: rgb(0, 128, 0);
+    }
+
+    #container {
+        padding: 20px;
+    }
+
+    #conteudo {
+        line-height: 1.5;
+    }
+
+    form {
+        border: 1px solid rgb(255, 255, 255);
+        padding: 10px;
+    }
+
+    button.botao {
+        color: rgb(255, 255, 255);
+        background-color: rgb(0, 0, 255);
+    }
+
+    .footer__link {
+        color: rgb(0, 0, 255);
+        font-weight: bold;
     }
