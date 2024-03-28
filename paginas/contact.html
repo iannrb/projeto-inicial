@@ -1,26 +1,49 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CONTACT</title>
-</head>
-<body>
-    <div class="container">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CONTACT</title>
 
-        <header class="cabeçalho">
-            <h1 style="text-align: center; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            ">CONTACT</h1>
+        <link rel="stylesheet" href="../css/estilo.css">
+    </head>
 
-            <nav class="menu">
-                <ul style="list-style: none;">
-                    <li style="display: inline;"><a href="../index.html"><img src="../img/home.png" alt="Símbolo de casa" width="5%" title="HOME"></a></li>
-                    <li style="display: inline;"><a href="./help.html"><img src="../img/help.png" alt="Circulo com interrogação" width="5%" title="AJUDA"></a></li>
-                    <li style="display: inline;"><a href="./about.html"><img src="../img/about.png" alt="Circulo com exclamção" width="5%" title="SOBRE"></a></li>
-                </ul>
-            </nav>
-    
-        </header>
-    </div>
-</body>
+    <body>
+        <div id="container">
+            <header id="cabeçalho">
+                <h1>CONTACT</h1>
+
+                <nav id="menu">
+                    <ul>
+                        <li class="link"><a href="./help.html"><img src="../img/help.png" alt="Circulo com interrogação" title="AJUDA"></a></li>
+                        <li class="link"><a href="./about.html"><img src="../img/about.png" alt="Circulo com exclamção" title="SOBRE"></a></li>
+                        <li class="link"><a href="../index.html"><img src="../img/home.png" alt="Símbolo de casa" title="HOME"></a></li>
+                    </ul>
+                </nav>
+            </header>
+
+            <section id="conteudo">
+                <h2>Tem alguma dúvida?</h2>
+                <p>
+                    Caso haja alguma duvida, sinta-se à vontade para entrar em contato conosco!
+                </p>
+                <form class="formulario">
+                    <label for="nome">Nome:</label>
+                    <input type="text" name="nome" id="nome" placeholder="Ex.: Ian Rossato Braga" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email" placeholder="Ex.: ian.braga@gmail.com" required>
+
+                    <label for="mensagem">Mensagem: </label>
+                    <textarea name="mensagem" id="mensagem" cols="25" rows="4" placeholder="Envie aqui sua mensagem!"></textarea>
+
+                    <button type="submit">Mande sua mensagem</button>
+                </form>
+            </section>
+
+            <footer id="rodape">
+                <p>Todos os direitos reservados &copy; 2024 - Minha Página.</p>
+            </footer>
+        </div>
+    </body>
 </html>
